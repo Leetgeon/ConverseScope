@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Chat Viewer</title>
+    <title>ConverseScope</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <textarea id="inputArea" placeholder="Enter text data..."></textarea>
-    <select id="memberSelect"></select>
-    <div id="chatDisplay"></div>
+    <header>
+        <h1>ConverseScope</h1>
+        <p>Filter and view conversations by member</p>
+    </header>
+    <main>
+        <textarea id="inputArea" placeholder="Paste your chat data here..."></textarea>
+        <div class="controls">
+            <label for="memberSelect">Select Member:</label>
+            <select id="memberSelect"></select>
+        </div>
+        <div id="chatDisplay"></div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
