@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+}
+
+select {
+    margin: 20px 0;
+    width: 200px;
+}
+
+#chatDisplay {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+}
